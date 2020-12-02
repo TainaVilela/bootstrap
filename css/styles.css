@@ -1,0 +1,163 @@
+/*Gerais*/
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.row{
+  margin:0;
+}
+.container{
+  padding:70px 0;
+}
+p, li{
+  color: #cccbbb;
+  font-size:14px;
+}
+
+/*barra de navegação*/
+header, .navbar{
+  background-color: #ccbbc3;
+}
+#nav-container{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo{
+  width: 225px;
+}
+.navbar-brand{
+  padding:0;
+  color: #f9f9f9;
+}
+.navbar-brand:hover{
+  color: #f9f9f9;
+}
+#navbar-links a{
+  color: #f9f9f9;
+}
+.navbar-expand-lg .navbar-nav .navbar-link{
+  padding: 80% 14px;
+}
+/*slider*/
+.container-fluid{
+  padding:0;
+}
+#mainSlider .carouser-inner, #mainSlider .carousel-item{
+  height:75vh;
+}
+#mainSlider .carousel-caption{
+  top:30%;
+}
+#mainSlider .carousel-caption h2{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#mainSlider .carousel-caption p{
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #f9f9f9;
+}
+.main-btn{
+  background-color: #ccbbc3;
+  color: #f9f9f9;
+  text-transform: uppercase;
+  width:200px;
+  height:60px;
+  padding:10px 20px;
+  border-radius: 30px;
+  border:3px solid transparent;
+  transition: .5s;
+}
+.main-btn:hover{
+  text-decoration: none;
+  color: #f9f9f9;
+  background-color: transparent;
+  border-color: #ccbbc3;
+}
+.carousel-indicators .active{
+  background-color: #ccbbc3;
+}
+/*Sobre*/
+#about-area{
+  background-color: #f9f9f9;
+}
+.main-title{
+  color: #444;
+  margin:0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+}
+.main-title::after{
+  content: "";
+  border-top: 2px solid #333;
+  width: 15%;
+  position: absolute;
+  top:60px;
+  left:42.5%;
+}
+.about-title{
+  font-size: 17px;
+  color:#444;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#about-list{
+  list-style: none;
+  padding-left: 0;
+}
+#about-list li{
+  line-height: 30px;
+}
+#aboutlist i{
+  color:#ccbbc3;
+  margin-right: 15px;
+}
+/*Serviços*/
+.service-box{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.service-box i, .service-box h4{
+  transition: .5s;
+}
+.service-box i{
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #444;
+}
+.service-box h4{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.service-box:hover> i, .service-box:hover> h4{
+  color:#ccbbc3;
+}
+/*rodapé*/
+#contact-area{
+  text-align: center;
+}
+.contact-box{
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ccbbc3;
+}
+#copy-area{
+  background-color: #ccbbc3;
+}
+#copy-area .container{
+  padding: 10px 0;
+  text-align: center;
+}
+#copy-area .container p{
+  margin-bottom: 0;
+}
+#copy-area .container a{
+  font-weight: bold;
+  color: #f9f9f9
+}
+#copy-area .container a:hover{
+  text-decoration: none;
+  color: #ccbbc3;
+}
